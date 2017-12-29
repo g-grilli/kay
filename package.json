@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/g-grilli/kay/issues"
   },
-  "homepage": "https://github.com/g-grilli/kay#readme"
+  "homepage": "https://github.com/g-grilli/kay#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
+  }
 }
