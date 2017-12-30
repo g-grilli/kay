@@ -7,8 +7,12 @@ app.use('/static', express.static('public'));
 
 
 app.get('/main', function (request, response) {
- response.render('main.hbs', {});
-}); 
+ response.render('index.hbs', {});
+});
+
+app.get('/login', function (request, response) {
+ response.render('login.hbs',{});
+});
 
 app.get('/test', function (request, response) {
  response.render('test.hbs', {});
